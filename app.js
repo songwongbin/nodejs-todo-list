@@ -3,7 +3,7 @@ import connect from "./schemas/index.js";
 import TodosRouter from "./routes/todos.router.js";
 import errorHandlerMiddleware from "./middlewares/error-handler.middleware.js";
 
-// app 생성
+// app을 생성
 const app = express();
 const PORT = 3000;
 
